@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEKVANCE | Building Future-Driven Systems</title>
+<meta name="description" content="TEKVANCE - Technology solutions company specializing in IT infrastructure, networking, CCTV & security systems, server & data center solutions, and IP telephony.">
+<link rel="icon" href="assets/logo-icon.jpg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B34705NFQ9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-B34705NFQ9');
+</script>
+</head>
+<body>
+
+<!-- ============ Preloader ============ -->
+<div class="preloader" id="preloader">
+  <div class="loader-logo">
+    <img src="assets/logo-icon.jpg" alt="TEKVANCE">
+  </div>
+</div>
+
+<!-- ============ Header ============ -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-icon.jpg" alt="TEKVANCE Logo" class="brand-logo">
+      <span class="brand-text">TEKVANCE</span>
+    </a>
+
+    <nav class="nav" id="mainNav">
+      <ul>
+        <li><a href="index.html#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+        <li><a href="index.html#about" data-en="About" data-ar="من نحن">About</a></li>
+        <li><a href="index.html#services" data-en="Services" data-ar="خدماتنا">Services</a></li>
+        <li><a href="projects.html" data-en="Projects" data-ar="مشاريعنا">Projects</a></li>
+        <li><a href="index.html#why" data-en="Why Us" data-ar="لماذا نحن">Why Us</a></li>
+        <li><a href="index.html#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span id="langLabel">العربية</span>
+      </button>
+      <a href="index.html#contact" class="btn btn-primary btn-sm" data-en="Get a Quote" data-ar="اطلب عرض سعر">Get a Quote</a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ Hero ============ -->
+<section class="hero" id="home">
+  <canvas id="networkCanvas"></canvas>
+  <div class="hero-glow"></div>
+  <div class="container hero-inner">
+    <div class="hero-badge" data-en="Technology Solutions Company" data-ar="شركة حلول تقنية متكاملة">Technology Solutions Company</div>
+    <h1 class="hero-title">
+      <span data-en="Building" data-ar="نبني">Building</span>
+      <span class="accent" data-en="Future-Driven" data-ar="أنظمة">Future-Driven</span>
+      <span data-en="Systems" data-ar="المستقبل">Systems</span>
+    </h1>
+    <p class="hero-subtitle" data-en="We design, integrate, and support intelligent technology solutions that secure your business, connect your world, and drive you forward." data-ar="نصمم وننفذ وندعم حلولاً تقنية ذكية تؤمّن أعمالك، وتربط عالمك، وتدفعك نحو المستقبل.">We design, integrate, and support intelligent technology solutions that secure your business, connect your world, and drive you forward.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary" data-en="Get a Free Consultation" data-ar="احصل على استشارة مجانية">Get a Free Consultation</a>
+      <a href="projects.html" class="btn btn-outline" data-en="View Our Projects" data-ar="شاهد مشاريعنا">View Our Projects</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="num" data-target="4">0</span><small data-en="Core Service Lines" data-ar="مجالات خدمة رئيسية">Core Service Lines</small></div>
+      <div class="hstat"><span class="num" data-target="24">0</span><small data-en="Hour Support Availability" data-ar="ساعة دعم متواصل">Hour Support Availability</small></div>
+      <div class="hstat"><span class="num" data-target="100">0</span><small data-en="% Tailored Solutions" data-ar="% حلول مخصصة">% Tailored Solutions</small></div>
+    </div>
+  </div>
+  <div class="scroll-indicator"><span></span></div>
+</section>
+
+<!-- ============ About ============ -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual">
+      <div class="about-frame">
+        <div class="orbit-logo">
+          <img src="assets/logo-icon.jpg" alt="TEKVANCE">
+        </div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+      </div>
+    </div>
+    <div class="about-content">
+      <span class="section-tag" data-en="Who We Are" data-ar="من نحن">Who We Are</span>
+      <h2 data-en="Your Trusted Technology Partner" data-ar="شريكك التقني الموثوق">Your Trusted Technology Partner</h2>
+      <p data-en="TEKVANCE is a technology solutions company specializing in IT infrastructure, networking, CCTV & security systems, server & data center solutions, and IP telephony. We combine deep technical expertise with a hands-on approach to deliver systems that are reliable today and ready for tomorrow." data-ar="TEKVANCE شركة متخصصة في تقديم حلول تقنية متكاملة تشمل البنية التحتية لتكنولوجيا المعلومات، الشبكات، أنظمة المراقبة والأمان، حلول السيرفرات ومراكز البيانات، وأنظمة الاتصالات (IP Telephony). نجمع بين الخبرة التقنية العميقة والتنفيذ الاحترافي لنقدم أنظمة موثوقة اليوم وجاهزة للمستقبل.">
+        TEKVANCE is a technology solutions company specializing in IT infrastructure, networking, CCTV & security systems, server & data center solutions, and IP telephony. We combine deep technical expertise with a hands-on approach to deliver systems that are reliable today and ready for tomorrow.
+      </p>
+
+      <div class="vm-grid">
+        <div class="vm-card">
+          <div class="vm-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.7 7.9 1 12c1.7 4.1 6 7.5 11 7.5s9.3-3.4 11-7.5c-1.7-4.1-6-7.5-11-7.5Zm0 12.5a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>
+          </div>
+          <h4 data-en="Our Vision" data-ar="رؤيتنا">Our Vision</h4>
+          <p data-en="To be a leading technology partner recognized for delivering innovative and sustainable solutions that shape a smarter future." data-ar="أن نكون الشريك التقني الأول المعروف بتقديم حلول مبتكرة ومستدامة تصنع مستقبلاً أذكى.">To be a leading technology partner recognized for delivering innovative and sustainable solutions that shape a smarter future.</p>
+        </div>
+        <div class="vm-card">
+          <div class="vm-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 3.8 9.4 9 10 5.2-.6 9-5 9-10V6l-9-4Zm0 2.2 7 3.1v4.7c0 4-2.9 7.4-7 8-4.1-.6-7-4-7-8V7.3l7-3.1ZM11 8v5l4 2 .7-1.3-3.2-1.9V8H11Z"/></svg>
+          </div>
+          <h4 data-en="Our Mission" data-ar="رسالتنا">Our Mission</h4>
+          <p data-en="To provide high-quality technology solutions that enhance performance, strengthen security, and create long-term value for our clients." data-ar="تقديم حلول تقنية عالية الجودة تعزز الأداء، وتقوّي الأمان، وتخلق قيمة طويلة المدى لعملائنا.">To provide high-quality technology solutions that enhance performance, strengthen security, and create long-term value for our clients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Services ============ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag center" data-en="What We Offer" data-ar="ماذا نقدم">What We Offer</span>
+      <h2 class="center" data-en="Complete Technology Solutions" data-ar="حلول تقنية متكاملة">Complete Technology Solutions</h2>
+      <p class="center sub" data-en="From design to deployment, we deliver end-to-end systems tailored to your business needs." data-ar="من التصميم إلى التنفيذ، نقدم أنظمة متكاملة مصممة خصيصاً لاحتياجات عملك.">From design to deployment, we deliver end-to-end systems tailored to your business needs.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 5h13a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v8h13V7H4Zm16 1.5 4-2v11l-4-2v-7ZM8 9a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/></svg>
+        </div>
+        <h3 data-en="CCTV & Surveillance" data-ar="أنظمة المراقبة CCTV">CCTV & Surveillance</h3>
+        <p data-en="Advanced camera and monitoring systems designed for complete visibility and peace of mind, indoors and out." data-ar="أنظمة كاميرات ومراقبة متطورة توفر رؤية كاملة وراحة بال داخل وخارج منشأتك.">Advanced camera and monitoring systems designed for complete visibility and peace of mind, indoors and out.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4V4Zm10 0h6v6h-6V4ZM4 14h6v6H4v-6Zm10 0h6v6h-6v-6ZM10 7h4M7 10v4M17 10v4M10 17h4"/></svg>
+        </div>
+        <h3 data-en="Network & IT Infrastructure" data-ar="الشبكات والبنية التحتية">Network & IT Infrastructure</h3>
+        <p data-en="Reliable, scalable network design, structured cabling, fiber backbones, and server infrastructure that grows with you." data-ar="تصميم شبكات موثوقة وقابلة للتوسع، وتمديدات كابلات منظمة، وبنية تحتية للسيرفرات تنمو مع أعمالك.">Reliable, scalable network design, structured cabling, fiber backbones, and server infrastructure that grows with you.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9 8 11 4.6-2 8-6 8-11V5l-8-3Zm0 2.2 6 2.3v4.5c0 3.9-2.6 7.2-6 8.7-3.4-1.5-6-4.8-6-8.7V6.5l6-2.3ZM9.8 12.4l1.6 1.6 3.4-3.4"/></svg>
+        </div>
+        <h3 data-en="Security & Access Control" data-ar="الأمان والتحكم بالدخول">Security & Access Control</h3>
+        <p data-en="Integrated access control, turnstiles, and biometric systems to protect your people, assets, and data." data-ar="أنظمة تحكم دخول متكاملة، بوابات دوارة، وأنظمة بصمة لحماية موظفيك وأصولك وبياناتك.">Integrated access control, turnstiles, and biometric systems to protect your people, assets, and data.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M6 8h16M6 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2M6 8v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8M9 19h10M11 13v6M17 13v6M9 6.5h.01M12 6.5h.01"/></svg>
+        </div>
+        <h3 data-en="Server & Data Center Solutions" data-ar="حلول السيرفرات ومراكز البيانات">Server & Data Center Solutions</h3>
+        <p data-en="Server deployment, virtualization, racking, and configuration built for performance and uptime." data-ar="تركيب السيرفرات، الفرتشوال، تجهيز الراكات، والتهيئة الكاملة لأعلى أداء واستمرارية عمل.">Server deployment, virtualization, racking, and configuration built for performance and uptime.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
+        </div>
+        <h3 data-en="IP Telephony & VoIP" data-ar="أنظمة الاتصالات IP Telephony">IP Telephony & VoIP</h3>
+        <p data-en="PBX and VoIP deployment for clear, reliable, and cost-effective business communication." data-ar="تركيب أنظمة PBX وVoIP لاتصالات واضحة وموثوقة واقتصادية لعملك.">PBX and VoIP deployment for clear, reliable, and cost-effective business communication.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm7.4-3a7.4 7.4 0 0 1-.1 1.2l2 1.6-2 3.4-2.3-1a7.6 7.6 0 0 1-2 1.2L14.6 21H9.4l-.4-2.6a7.6 7.6 0 0 1-2-1.2l-2.3 1-2-3.4 2-1.6A7.4 7.4 0 0 1 4.6 12c0-.4 0-.8.1-1.2l-2-1.6 2-3.4 2.3 1c.6-.5 1.3-.9 2-1.2L9.4 3h5.2l.4 2.6c.7.3 1.4.7 2 1.2l2.3-1 2 3.4-2 1.6c.1.4.1.8.1 1.2Z"/></svg>
+        </div>
+        <h3 data-en="Installation & Technical Support" data-ar="التركيب والدعم الفني">Installation & Technical Support</h3>
+        <p data-en="Professional installation, configuration, and ongoing maintenance delivered by certified specialists." data-ar="تركيب احترافي، تهيئة كاملة، وصيانة دورية على يد فريق متخصص ومعتمد.">Professional installation, configuration, and ongoing maintenance delivered by certified specialists.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Process ============ -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag center" data-en="Our Process" data-ar="آلية العمل">Our Process</span>
+      <h2 class="center" data-en="How We Work" data-ar="كيف نعمل">How We Work</h2>
+      <p class="center sub" data-en="A clear, structured approach from first call to final handover." data-ar="منهجية واضحة ومنظمة من أول اتصال وحتى التسليم النهائي.">A clear, structured approach from first call to final handover.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <h4 data-en="Consultation" data-ar="الاستشارة">Consultation</h4>
+        <p data-en="We understand your requirements, site conditions, and goals." data-ar="نفهم متطلباتك وطبيعة الموقع وأهدافك.">We understand your requirements, site conditions, and goals.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <h4 data-en="Design & Proposal" data-ar="التصميم والعرض">Design & Proposal</h4>
+        <p data-en="We prepare a detailed technical design and BOQ tailored to your budget." data-ar="نجهز تصميماً تقنياً وBOQ تفصيلي يتناسب مع ميزانيتك.">We prepare a detailed technical design and BOQ tailored to your budget.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <h4 data-en="Implementation" data-ar="التنفيذ">Implementation</h4>
+        <p data-en="Our certified team installs and configures every component with precision." data-ar="فريقنا المعتمد يقوم بالتركيب والتهيئة الكاملة لكل مكون بدقة.">Our certified team installs and configures every component with precision.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <h4 data-en="Support & Maintenance" data-ar="الدعم والصيانة">Support & Maintenance</h4>
+        <p data-en="Ongoing monitoring, maintenance, and rapid technical support." data-ar="متابعة مستمرة، صيانة دورية، ودعم فني سريع.">Ongoing monitoring, maintenance, and rapid technical support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Why Us ============ -->
+<section class="why" id="why">
+  <div class="container why-grid">
+    <div class="why-content">
+      <span class="section-tag" data-en="Why Choose Us" data-ar="لماذا تختارنا">Why Choose Us</span>
+      <h2 data-en="Built for Today. Ready for Tomorrow." data-ar="بفني لليوم. جاهز للغد.">Built for Today. Ready for Tomorrow.</h2>
+      <p data-en="From design to deployment, we deliver future-driven systems that grow with your business, backed by real hands-on expertise across every layer of your IT infrastructure." data-ar="من التصميم إلى التنفيذ، نقدم أنظمة تواكب المستقبل وتنمو مع أعمالك، مدعومة بخبرة عملية حقيقية في كل طبقة من طبقات بنيتك التحتية.">From design to deployment, we deliver future-driven systems that grow with your business, backed by real hands-on expertise across every layer of your IT infrastructure.</p>
+
+      <ul class="why-list">
+        <li>
+          <svg viewBox="0 0 24 24"><path d="m9 16.2-3.5-3.5L4 14.2l5 5 11-11-1.5-1.5L9 16.2Z"/></svg>
+          <span data-en="Certified & experienced technical team" data-ar="فريق فني معتمد وذو خبرة">Certified & experienced technical team</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><path d="m9 16.2-3.5-3.5L4 14.2l5 5 11-11-1.5-1.5L9 16.2Z"/></svg>
+          <span data-en="Tailored solutions, not one-size-fits-all" data-ar="حلول مخصصة تناسب احتياجك الفعلي">Tailored solutions, not one-size-fits-all</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><path d="m9 16.2-3.5-3.5L4 14.2l5 5 11-11-1.5-1.5L9 16.2Z"/></svg>
+          <span data-en="Clear pricing: materials vs. installation" data-ar="فصل واضح بين تكلفة التوريد والتركيب">Clear pricing: materials vs. installation</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><path d="m9 16.2-3.5-3.5L4 14.2l5 5 11-11-1.5-1.5L9 16.2Z"/></svg>
+          <span data-en="Responsive after-sales support" data-ar="دعم فني سريع بعد التركيب">Responsive after-sales support</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="why-visual">
+      <div class="floating-card fc-1">
+        <svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 3.8 9.4 9 10 5.2-.6 9-5 9-10V6l-9-4Z"/></svg>
+        <div><strong data-en="Secure" data-ar="آمن">Secure</strong><small data-en="End-to-end protection" data-ar="حماية شاملة">End-to-end protection</small></div>
+      </div>
+      <div class="floating-card fc-2">
+        <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4V4Zm10 0h6v6h-6V4ZM4 14h6v6H4v-6Zm10 0h6v6h-6v-6Z"/></svg>
+        <div><strong data-en="Scalable" data-ar="قابل للتوسع">Scalable</strong><small data-en="Grows with your business" data-ar="ينمو مع أعمالك">Grows with your business</small></div>
+      </div>
+      <div class="floating-card fc-3">
+        <svg viewBox="0 0 24 24"><path d="M13 2 3 14h7l-1 8 11-13h-8l1-7Z"/></svg>
+        <div><strong data-en="Fast Support" data-ar="دعم سريع">Fast Support</strong><small data-en="Rapid response team" data-ar="فريق استجابة سريعة">Rapid response team</small></div>
+      </div>
+      <div class="why-orb"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA Banner ============ -->
+<section class="cta-banner">
+  <div class="container cta-inner">
+    <div>
+      <h3 data-en="Have a project in mind?" data-ar="عندك مشروع محتاج تنفيذ؟">Have a project in mind?</h3>
+      <p data-en="Tell us about your requirements and get a tailored proposal within days." data-ar="احكيلنا عن احتياجاتك واحصل على عرض مخصص خلال أيام.">Tell us about your requirements and get a tailored proposal within days.</p>
+    </div>
+    <a href="#contact" class="btn btn-light" data-en="Request a Quote" data-ar="اطلب عرض سعر">Request a Quote</a>
+  </div>
+</section>
+
+<!-- ============ Contact ============ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag center" data-en="Get In Touch" data-ar="تواصل معنا">Get In Touch</span>
+      <h2 class="center" data-en="Let's Build Something Great" data-ar="لنبني شيئاً عظيماً معاً">Let's Build Something Great</h2>
+      <p class="center sub" data-en="Reach out for a consultation, technical support, or a project quote." data-ar="تواصل معنا لطلب استشارة، دعم فني، أو عرض سعر لمشروعك.">Reach out for a consultation, technical support, or a project quote.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
+          </div>
+          <div>
+            <h4 data-en="Call Us" data-ar="اتصل بنا">Call Us</h4>
+            <a href="tel:+201000073642">+20 10 0007 3642</a>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24"><path d="M3 5h18v14H3V5Zm2 2 7 5.5L19 7M5 17h14V8.4l-7 5.5-7-5.5V17Z"/></svg>
+          </div>
+          <div>
+            <h4 data-en="Email Us" data-ar="راسلنا">Email Us</h4>
+            <a href="mailto:info@tekvance-eg.com">info@tekvance-eg.com</a>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/></svg>
+          </div>
+          <div>
+            <h4 data-en="Location" data-ar="الموقع">Location</h4>
+            <span data-en="Alexandria, Egypt" data-ar="الإسكندرية، مصر">Alexandria, Egypt</span>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 15L2 12v5l10 5 10-5v-5l-10 5Z"/></svg>
+          </div>
+          <div>
+            <h4 data-en="Working Hours" data-ar="ساعات العمل">Working Hours</h4>
+            <span data-en="Sat–Thu · 9:00 AM – 6:00 PM" data-ar="السبت–الخميس · 9 ص – 6 م">Sat–Thu · 9:00 AM – 6:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/meajqnvq" method="POST" novalidate>
+  <div class="form-row">
+    <div class="form-group">
+      <label data-en="Full Name" data-ar="الاسم بالكامل">Full Name</label>
+      <input
+        type="text"
+        name="name"
+        id="nameInput"
+        required
+        minlength="3"
+        maxlength="50"
+        autocomplete="name"
+        aria-describedby="nameError"
+        placeholder="Ahmed Khaled"
+        title="Letters only, first and last name">
+      <small id="nameError" class="field-error"></small>
+    </div>
+    <div class="form-group">
+      <label data-en="Phone Number" data-ar="رقم الهاتف">Phone Number</label>
+      <div class="phone-group">
+        <select id="countryCode" class="country-select" aria-label="Country code">
+          <option value="20" data-digits="10">🇪🇬 +20</option>
+          <option value="966" data-digits="9">🇸🇦 +966</option>
+          <option value="971" data-digits="9">🇦🇪 +971</option>
+          <option value="965" data-digits="8">🇰🇼 +965</option>
+          <option value="974" data-digits="8">🇶🇦 +974</option>
+          <option value="973" data-digits="8">🇧🇭 +973</option>
+          <option value="968" data-digits="8">🇴🇲 +968</option>
+          <option value="962" data-digits="9">🇯🇴 +962</option>
+          <option value="964" data-digits="10">🇮🇶 +964</option>
+          <option value="218" data-digits="9">🇱🇾 +218</option>
+          <option value="1" data-digits="10">🇺🇸 +1</option>
+          <option value="44" data-digits="10">🇬🇧 +44</option>
+        </select>
+        <input
+          type="tel"
+          id="phoneInput"
+          inputmode="numeric"
+          autocomplete="tel-national"
+          aria-describedby="phoneHint phoneError"
+          placeholder="1000073642"
+          required>
+      </div>
+      <small id="phoneHint" class="input-hint" data-en="Enter 10 digits (without the leading 0)" data-ar="أدخل 10 أرقام (بدون الصفر في البداية)">Enter 10 digits (without the leading 0)</small>
+      <small id="phoneError" class="field-error"></small>
+      <input type="hidden" name="phone" id="phoneFull">
+    </div>
+  </div>
+  <div class="form-group">
+    <label data-en="Email Address" data-ar="البريد الإلكتروني">Email Address</label>
+    <input
+      type="email"
+      name="email"
+      id="emailInput"
+      required
+      maxlength="100"
+      autocomplete="email"
+      aria-describedby="emailError"
+      placeholder="example@email.com"
+      title="Please enter a valid email address">
+    <small id="emailError" class="field-error"></small>
+  </div>
+  <div class="form-group">
+    <label data-en="Service Needed" data-ar="الخدمة المطلوبة">Service Needed</label>
+    <select name="service">
+      <option data-en="CCTV & Surveillance" data-ar="أنظمة المراقبة">CCTV & Surveillance</option>
+      <option data-en="Network & IT Infrastructure" data-ar="الشبكات والبنية التحتية">Network & IT Infrastructure</option>
+      <option data-en="Security & Access Control" data-ar="الأمان والتحكم بالدخول">Security & Access Control</option>
+      <option data-en="Server & Data Center" data-ar="السيرفرات ومراكز البيانات">Server & Data Center</option>
+      <option data-en="IP Telephony & VoIP" data-ar="أنظمة الاتصالات">IP Telephony & VoIP</option>
+      <option data-en="Other" data-ar="أخرى">Other</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label data-en="Message" data-ar="رسالتك">Message</label>
+    <textarea name="message" id="messageInput" rows="4" required minlength="10" maxlength="1000" aria-describedby="messageError"></textarea>
+    <small id="messageError" class="field-error"></small>
+  </div>
+  <input type="hidden" name="_subject" value="New inquiry from TEKVANCE website">
+  <button type="submit" class="btn btn-primary btn-full" id="submitBtn" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</button>
+  <p class="form-note" id="formNote"></p>
+</form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand">
+        <img src="assets/logo-icon.jpg" alt="TEKVANCE Logo" class="brand-logo">
+        <span class="brand-text">TEKVANCE</span>
+      </a>
+      <p data-en="Building Future-Driven Systems." data-ar="نبني أنظمة تواكب المستقبل.">Building Future-Driven Systems.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.9h2.6l.4-3.1h-3V8c0-.9.2-1.5 1.6-1.5H16.6V3.7C16.1 3.6 15 3.5 13.8 3.5c-2.5 0-4.2 1.5-4.2 4.3v2.4H7v3.1h2.6V21h3.9Z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M6.9 8.4H3.6V20H6.9V8.4ZM5.3 3.5A1.9 1.9 0 1 0 5.3 7.3 1.9 1.9 0 0 0 5.3 3.5ZM20.4 20h-3.3v-6.1c0-1.5-.6-2.5-1.9-2.5-1 0-1.6.7-1.9 1.4-.1.2-.1.6-.1.9V20H9.9s.1-10.5 0-11.6h3.3v1.6c.4-.7 1.2-1.7 3-1.7 2.2 0 3.8 1.4 3.8 4.5V20Z"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.7-1.2-1.5-1.4-1.7-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4l-.7-1.7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.5-.3Z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+      <ul>
+        <li><a href="index.html#about" data-en="About Us" data-ar="من نحن">About Us</a></li>
+        <li><a href="index.html#services" data-en="Services" data-ar="خدماتنا">Services</a></li>
+        <li><a href="projects.html" data-en="Projects" data-ar="مشاريعنا">Projects</a></li>
+        <li><a href="index.html#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h4 data-en="Services" data-ar="خدماتنا">Services</h4>
+      <ul>
+        <li><a href="index.html#services" data-en="CCTV & Surveillance" data-ar="أنظمة المراقبة">CCTV & Surveillance</a></li>
+        <li><a href="index.html#services" data-en="Network & Infrastructure" data-ar="الشبكات والبنية التحتية">Network & Infrastructure</a></li>
+        <li><a href="index.html#services" data-en="Security & Access Control" data-ar="الأمان والتحكم بالدخول">Security & Access Control</a></li>
+        <li><a href="index.html#services" data-en="IP Telephony & VoIP" data-ar="أنظمة الاتصالات">IP Telephony & VoIP</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4 data-en="Contact" data-ar="تواصل معنا">Contact</h4>
+      <ul>
+        <li>+20 10 0007 3642</li>
+        <li>info@tekvance-eg.com</li>
+        <li data-en="Alexandria, Egypt" data-ar="الإسكندرية، مصر">Alexandria, Egypt</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span>© <span id="year"></span> TEKVANCE. <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></span>
+      <span data-en="Building Future-Driven Systems" data-ar="نبني أنظمة تواكب المستقبل">Building Future-Driven Systems</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24"><path d="m12 6-7 7 1.4 1.4L11 9.8V19h2V9.8l4.6 4.6L19 13l-7-7Z"/></svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
